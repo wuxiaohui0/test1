@@ -8,8 +8,8 @@ const MusicPlayer: React.FC = () => {
   // PLAYLIST CONFIGURATION
   // The user requested "Happy New Year" by ABBA (identified by lyrics).
   const TRACKS = [
-    "happy-new-year.mp3", // Priority 1: Local file (Please rename your file to this)
-    "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Kai_Engel/Satin/Kai_Engel_-_04_-_Sentinel.mp3" // Priority 5: Instrumental Fallback
+    "luck.mp3", // Priority 1: Local file (Please rename your file to this)
+    // "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Kai_Engel/Satin/Kai_Engel_-_04_-_Sentinel.mp3" // Priority 5: Instrumental Fallback
   ];
 
   useEffect(() => {
