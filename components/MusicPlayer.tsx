@@ -8,7 +8,7 @@ const MusicPlayer: React.FC = () => {
   // PLAYLIST CONFIGURATION
   // The user requested "Happy New Year" by ABBA (identified by lyrics).
   const TRACKS = [
-    "luck.mp3", // Priority 1: Local file (Please rename your file to this)
+    "https://lx-sycdn.kuwo.cn/fcbc182211290b8b67d8d4df34d8e341/69534c07/resource/n2/0/31/1286589960.mp3?bitrate$128&from=vip", // Priority 1: Local file (Please rename your file to this)
     // "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Kai_Engel/Satin/Kai_Engel_-_04_-_Sentinel.mp3" // Priority 5: Instrumental Fallback
   ];
 
